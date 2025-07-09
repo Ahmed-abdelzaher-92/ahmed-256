@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-image: url('istockphoto-517188688-1024x1024.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: orange;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: orange;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  min-height: 90vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+}
+
+.hero-content h1 span {
+  color: orange;
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btn-download {
+  padding: 10px 20px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-download:hover {
+  background-color: orange;
+  border-color: orange;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container .highlight {
+  color: orange;
+}
+
+.form-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: darkorange;
+}
