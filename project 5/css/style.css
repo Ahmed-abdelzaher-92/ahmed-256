@@ -1,0 +1,102 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Logo Styles */
+.logo {
+    margin-right: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Navigation Styles */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Container Styles */
+.container {
+    background-color: #f5f7fa;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content Styles */
+.content {
+    width: 50%;
+    padding: 45px;
+    font-size: 20px;
+}
+
+/* Button Styles */
+.btn-register,
+.btn-learnmore {
+    margin: 22px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
+
+/* Clients Section */
+.clients-container {
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Community Section */
+.enter-community {
+    text-align: center;
+}
+
+.community {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Unseen Pixelgrade Section */
+.unseen-pixelgrade {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #263238;
+}
+
+.footer-social {
+    margin: 6px;
+}
